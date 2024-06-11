@@ -1,0 +1,58 @@
+@charset "utf-8";
+ /* CSS Document */
+ p {
+	color:lightblue;
+	font-family:Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	font-size: 20px;
+	line-height: 18px;
+	width: 1450px;
+	background-color:darkcyan;
+	padding: 10px;
+}
+a:link {
+	color:mediumorchid;
+	background-color: lightblue;
+	padding: 1px;
+	line-height: 66px;
+	border: 0px ;
+}
+.container {
+    text-align: center;
+}
+.pozadina {
+	background-image: url("slike/pozadina13.jpg");
+}
+.drugapozadina {
+	background-color: lightblue;
+}
+h1 {font-size: 50px}
+h2 {font-size: 40px}
+h1 {font-family:Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
+	color:darkcyan;
+}
+h2 {font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
+color:olive;}
+}
+body {background-color: antiquewhite}
+@font-face {
+    font-family: "LukaNjiric";
+    src:url("LukaNjiric.ttf");
+	}
+	ul {
+			padding:20px; 
+			margin-left: auto; 
+			margin-right:auto;  
+			width: 300px;
+			} 
+	li {	display:inline;
+			background-color:darkcyan;
+			padding:10px;
+			border: 2px solid darkcyan;
+		}
+	li:active {background-color:lightblue;}
+	li a {	color:darkcyan; 
+			font-family: "CabinSketch", sans-serif;
+			text-transform: uppercase;
+			}
+	li a:link {text-decoration:none;}
+	li a:hover {text-decoration:underline;}
